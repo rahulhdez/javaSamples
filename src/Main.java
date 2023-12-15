@@ -13,7 +13,25 @@ public class Main {
         {
             System.out.print(_var.charAt(i));
         }
+        System.out.println("");
 
+        int[] numbers = {1,2,3,4,5,6,7,8,10};
+        int missing = 0;
 
+        int n = 1;
+        for(int number : numbers)
+        {
+            if(number != n) {
+                missing = n;
+                break;
+            }
+
+            n++;
+        }
+
+        if(missing>0)
+            System.out.print("The missing number in the array is: " + missing);
+        else
+            System.out.print("There is no missing number in the array");
     }
 }
