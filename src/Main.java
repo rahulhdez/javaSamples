@@ -13,7 +13,7 @@ public class Main {
         {
             System.out.print(_var.charAt(i));
         }
-        System.out.println("");
+        System.out.println();
 
         int[] numbers = {1,2,3,4,5,6,7,8,10};
         int missing = 0;
